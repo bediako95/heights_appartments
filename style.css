@@ -234,7 +234,7 @@ section{
 }
 
 .about .content .title{
-   font-size: 4rem;
+   font-size: 3rem;
    color:var(--black);
    text-decoration: underline;
    text-underline-offset: 1rem ;
@@ -431,6 +431,7 @@ section{
 .gallery .gallery-container .box .category p{
    font-size: 6rem;
    color:var(--white);
+  
 }
 
 .gallery .gallery-container .box:hover .icon{
@@ -446,7 +447,7 @@ section{
    z-index: 10;
    height: 100%;
    width: 100%;
-   margin-top: 50px;
+  
    background: var(--dark-bg);
 }
 .gallery .gallery-container .box:hover .category{
@@ -502,6 +503,8 @@ section{
    align-items: center;
    gap:1rem;
    justify-content: space-between;
+   
+  
 }
 
 .menu .slide .box-container .box h3{
@@ -877,47 +880,26 @@ section{
    cursor: pointer;
 }
 
-.popup{
-   width: 400px;
-   background: #fff;
-   border-radius: 6px;
-   position: absolute;
-   top: 0;
-   left: 50%;
-   transform: translate(-50%, -50%) scale(0.1);
-   text-align: center;
-   padding: 0 30px 30px;
-   color: #333;
-   visibility: hidden;
-   transition: transform 0.4s, top 0.4s;
-}
-.open-popup{
-   visibility: visible;
-   top: 50%;
-   transform: translate(-50%, -50%) scale(1);
+.amenities-image{
+   width: 70px;
+   height: 50px;
+   border-radius: 100px;
+   
 }
 
-.popup img{
-   width: 100px;
-   margin-top: -50px;
-   border-radius: 50px;
-   box-shadow: 0 2px 5px rgba(0,0,0,.0.2);
-}
-.popup h2{
-  font-size: 38px;
-  font-weight: 500;
-   margin: 30px 0 10px;
-}
-.popup button{
+.gallery .gallery-container .box .category-apart{
+   display: none;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   top:0; left:0;
+   z-index: 10;
+   height: 100%;
    width: 100%;
-   margin-top: 50px;
-   padding: 10px 0;
-   background:#6fd649 ;
-   color: #fff;
-   border: 0;
-   outline: none;
-   font-size: 18px;
-   border-radius: 4px;
-   cursor: pointer;
-   box-shadow: 0 5px 5px rgba(0,0,0,.0.2);
+  
+   background: var(--dark-bg);
+
+   display: flex;
+   flex-direction: column;
 }
+
