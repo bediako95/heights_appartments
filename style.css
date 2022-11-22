@@ -525,8 +525,11 @@ section{
 }
 
 .menu .slide .box-container .box:hover{
+   background-color: var(--peru);
    transform: scale(.9);
    cursor: pointer;
+  
+   
 }
 
 .order{
@@ -883,7 +886,7 @@ section{
 .amenities-image{
    width: 70px;
    height: 50px;
-   border-radius: 100px;
+   
    
 }
 
