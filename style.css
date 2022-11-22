@@ -808,15 +808,7 @@ section{
    .home .slide .content h3{
       font-size: 15vw;
    }
-   .heading span{
-      font-size: 1.5rem;
-     
-   }
-   
-   .heading h3{
-      font-size: 3.5rem;
-     
-   }
+  
 
 }
 
@@ -879,6 +871,15 @@ section{
       line-height: 30px;
       margin-left: 30px;
       margin-right: 30px;
+   }
+   .heading span{
+      font-size: 1.5rem;
+     
+   }
+   
+   .heading h3{
+      font-size: 3.5rem;
+     
    }
    
 
