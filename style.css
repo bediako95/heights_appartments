@@ -808,6 +808,15 @@ section{
    .home .slide .content h3{
       font-size: 15vw;
    }
+   .heading span{
+      font-size: 1.5rem;
+     
+   }
+   
+   .heading h3{
+      font-size: 3.5rem;
+     
+   }
 
 }
 
