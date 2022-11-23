@@ -701,6 +701,10 @@ section{
    text-align: center;
    padding:3rem 2rem;
 }
+.footer .icons-container .icons :hover{
+  transform: scale(0.8);
+}
+
 
 .footer .icons-container .icons i{
    height: 6rem;
@@ -732,6 +736,10 @@ section{
 .share_icons{
    margin:2rem 0;
 }
+.share :hover{
+   transform: scale(0.7);
+}
+
 .share_icons a{
    padding: 10px;
 }
