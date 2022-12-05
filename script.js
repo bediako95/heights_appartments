@@ -19,6 +19,11 @@ var swiper = new Swiper(".home-slider", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+    reverseDirection: true,
+  },
 });
 
 var swiper = new Swiper(".food-slider", {
